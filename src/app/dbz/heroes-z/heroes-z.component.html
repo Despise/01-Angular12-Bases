@@ -1,0 +1,7 @@
+<h3>Personajes</h3>
+<hr>
+<ul>
+    <span class="item-span" *ngFor="let heroe of heroesZ; let i=index">
+        {{ i+1 + ' - ' + heroe.nombre }} - {{ heroe.poder | number }} K
+    </span>
+</ul>
